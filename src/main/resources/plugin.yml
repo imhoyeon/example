@@ -1,0 +1,6 @@
+name: Learnplugin
+version: '${project.version}'
+main: me.shy.learnplugin.Learnplugin
+api-version: '1.20'
+authors: [shy]
+description: 공부
