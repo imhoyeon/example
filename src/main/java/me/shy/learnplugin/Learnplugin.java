@@ -23,12 +23,3 @@ public final class Learnplugin extends JavaPlugin {
     public void onDisable() {
         Bukkit.getLogger().warning("플러그인 비활성화");
     }
-
-    public boolean randomTeleport(){
-
-        Random random = new Random();
-        int x = random.nextInt(10000) - 10000;
-        int z = random.nextInt(10000) - 10000;
-
-    }
-}
